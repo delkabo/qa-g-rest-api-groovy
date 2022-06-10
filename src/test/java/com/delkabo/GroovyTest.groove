@@ -1,0 +1,5 @@
+def list = [1,2,3, 4]
+println list.findAll{it > 2}
+
+def list = [[1,2],[3, 4]]
+println list.flatten().findAll{it > 1}
