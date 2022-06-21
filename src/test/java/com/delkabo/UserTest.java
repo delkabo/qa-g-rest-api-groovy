@@ -32,6 +32,7 @@ public class UserTest {
                 .log().body()
                 .extract().as(UserData.class);
 
+
         assertEquals(2, data.getData().getId());
     }
 
